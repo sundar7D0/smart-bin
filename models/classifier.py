@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import random
 import math
 import os
+import GPIO
 import cv2 as cv
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures, StandardScaler, LabelEncoder
@@ -83,6 +84,17 @@ img_array = tf.expand_dims(img_array, 0)
 predictions = model.predict(img_array)
 #score = tf.nn.softmax(predictions[0])
 
+prediction = category(predictions)
+GPIO.reset()
+if prediction == 0:  #transferring the waste classification result from RPi to Arduino!
+    GPIO.write(pin = 7, value=1)
+elif prediction == 1:
+   GPIO.write(pin = 3, value=1)
+elif prediction == 2:
+   GPIO.write(pin = 11, value=1)
+elif prediction == 3:
+   GPIO.write(pin = 15, value=1)
+    
 plt.imshow(img)
 print(predictions)
 print("Prediction: " + str(classes[np.argmax(predictions)]))
