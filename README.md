@@ -7,7 +7,7 @@
 3. The process of employed for collecting, and segregation of the waste is completely manual. This is neither very efficient nor cost effective. The **health hazard** this entails, makes this labour intensive process dangerous. 
 4. It is true that a small **change in the culture** of waste disposal - primary  segregation at source - can immensely ease this process. There is an immediate need to shift to a process that is simple and safe for both the people and the environment. 
  
-[Images](images/Smart_bin_prototype_alone.jpg)
+![Images](images/Smart_bin_prototype_alone.jpg)
 
 #PROPOSED SOLUTION 
 A smart bin was made which **incentivizes recycling**. The various stages of use are detailed:
