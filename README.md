@@ -33,7 +33,7 @@ It is hoped that this system will help educate the students of IITM about approp
 
 ### RPi/AI-boards SBCs (Single Board Computers)
 1. **InceptionV3** and **ResNet512** models were trained with huge parallelism (on-premise GPU cluster) on a very large dataset (over **19 million object classes**) and the final trained model is stored in `models/model/garbagsse2.model`.
-2. `models/classifier.py` is the **main script** that runs in the SBC, which invokes the saved model to perform waste classification, and then informs the same to Arduino using **GPIO ports** for further control dynamics.
+2. `models/classifier.py` is the **main script** that runs in the SBC, which invokes the saved model to perform waste classification, and then informs the same to Arduino using SBC's **GPIO ports** for further control.
 
 ## Additional resources
 1. [Slides](https://drive.google.com/drive/folders/1dT3ZZ_8g_MOizgmEKLXDApM6tMJDBB5u?usp=sharing)
