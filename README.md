@@ -27,20 +27,13 @@ It is hoped that this system will help educate the students of IITM about approp
 
 
 ## Using the code
+###Arduino (Mega)
+1. `Arduino/v_2.0.0.ino` has a **FSM** (Finite State Machine) which scans RFID, changes display in LCD/dot-matrix display, generates PWM signals for motor control to open/close the lid, etc. as detailed in the 9 steps above, after receiving a signal from the computer performing waste classification.
+2. `Modules` contains driver-codes for **peripherals** like RFID, servo, LCD display, etc.
 
-###Arduino
-`Arduino/v_2.0.0.ino` has a FSM which scans RFID, changes display in LCD/dot-matrix display, gives PWM signals for motor control to open/close the lid.
-
-`Modules` for RFID, servo, LCD display
-
-
-
-###RPi/AI-boards
-`models/model/garbagsse2.model`
-
-`models/classifier.py`
-
-InceptionV3, ResNet512
+###RPi/AI-boards (SBC - Single Board Computer)
+1. **InceptionV3** and **ResNet512** models were trained with huge parallelism (on-premise GPU cluster) on a very large dataset (over **19 million object classes**) and the final trained model is stored in `models/model/garbagsse2.model`.
+2. `models/classifier.py` is the **main script** that runs in the SBC, which invokes the saved model to perform waste classification, and then informs the same to Arduino using **GPIO ports** for further control dynamics.
 
 ## Additional resources
 1. [Slides](https://drive.google.com/drive/folders/1dT3ZZ_8g_MOizgmEKLXDApM6tMJDBB5u?usp=sharing)
