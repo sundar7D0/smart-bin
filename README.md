@@ -1,6 +1,6 @@
 # Smart waste-segregator bin
 
-#Problem
+## Problem
 [IITM](https://www.iitm.ac.in/) is a residential institute where there is a **gigantic amount of waste** that is generated everyday with about three-fourth coming from the hostel and academic zone. A significant proportion of this waste that is **recyclable** in nature, unfortunately ends up in the landfill due to the **inefficiency in primary source segregation**.
 1. The thousands of kilograms of unsorted waste **increases the carbon dioxide** released into the atmosphere, while raising the cost of segregation multifold. 
 2. The **intermixing** up of recyclables with wet waste rendering them inseparable defeats any attempt at recycling. 
@@ -9,7 +9,7 @@
  
 ![Images](images/Smart_bin_prototype_alone.jpg)
 
-#PROPOSED SOLUTION 
+## PROPOSED SOLUTION 
 A smart bin was made which **incentivizes recycling**. The various stages of use are detailed:
 1. The bin consists of a 4x1 grid of **four** compartments. Each compartment is covered by a **flap** which cannot be opened manually. This helps keep the bin monkey proof, which is a perennial problem in IIT M. 
 2. The bin, initially in an idle state is woken up by the user scanning his institute ID card. Thus, the identity of the user is recorded by the bin.
