@@ -22,7 +22,7 @@ A smart bin was made which **incentivizes recycling**. The various stages of use
 8. Based on the category of waste and the size of it, a **proportionate number of points** are credited to the  users account. These credits can later be used to redeem t-shirts or for other benefits.
 9. If the bin is full, it sends an automated message requesting that it be emptied.
 
-It is hoped that this system will help educate the students of IITM about appropriate recycling and segregation standards, making them more responsible citizens in the long run, making them work for a sustainable future. This project was **field-tested** at **IITM Campus-Cafe** and won the **Silver medal** at **Inter-IIT Tech Meet, Mumbai’18**.
+It is hoped that this system will help educate the students of IITM about appropriate recycling and segregation standards, making them more responsible citizens in the long run, making them work for a sustainable future. This project was **field-tested** at **IITM Campus-Cafe** and won the **Silver medal** at **Inter-IIT Tech Meet, Mumbai’18** for **Campus Sustainability Challenge**.
 
 
 
