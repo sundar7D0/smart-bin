@@ -9,7 +9,7 @@
  
 ![Images](images/Smart_bin_prototype_alone.jpg)
 
-## PROPOSED SOLUTION 
+## Proposed solution
 A smart bin was made which **incentivizes recycling**. The various stages of use are detailed:
 1. The bin consists of a 4x1 grid of **four** compartments. Each compartment is covered by a **flap** which cannot be opened manually. This helps keep the bin monkey proof, which is a perennial problem in IIT M. 
 2. The bin, initially in an idle state is woken up by the user scanning his institute ID card. Thus, the identity of the user is recorded by the bin.
