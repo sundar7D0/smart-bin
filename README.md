@@ -19,7 +19,7 @@ A smart bin was made which **incentivizes recycling**. The various stages of use
 6. After the appropriate waste category is detected, the flap corresponding to that compartment **opens**. The user then drops the waste into the given compartment. The flap then shuts. 
 7. The **electronics-subsystem** controls bin lids with servos, scans IDs using RFID scanners, uses BeagleBone AI board to run DL models at edge and displays information on LCD/dot-matrix displays. SMPS is used for power management.
 7. This entire process (steps 1-7) takes less than **1 second**.
-8. Based on the category of waste and the size of it, a **proportionate number of points** are credited to the  users account. These credits can later be used to redeem t-shirts.
+8. Based on the category of waste and the size of it, a **proportionate number of points** are credited to the  users account. These credits can later be used to redeem t-shirts or for other benefits.
 9. If the bin is full, it sends an automated message requesting that it be emptied.
 
 It is hoped that this system will help educate the students of IITM about appropriate recycling and segregation standards, making them more responsible citizens in the long run, making them work for a sustainable future. This project was **field-tested** at **IITM Campus-Cafe** and won the **Silver medal** at **Inter-IIT Tech Meet, Mumbai’18**.
