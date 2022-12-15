@@ -22,16 +22,16 @@ A smart bin was made which **incentivizes recycling**. The various stages of use
 8. Based on the category of waste and the size of it, a **proportionate number of points** are credited to the  users account. These credits can later be used to redeem t-shirts.
 9. If the bin is full, it sends an automated message requesting that it be emptied.
 
-It is hoped that this system will help educate the students of IITM about appropriate recycling and segregation standards, making them more responsible citizens in the long run, making them work for a sustainable future. This project was field-tested in IITM Campus-Cafe and won the Silver Medal at Inter-IIT Tech Meet, Mumbai’18.
+It is hoped that this system will help educate the students of IITM about appropriate recycling and segregation standards, making them more responsible citizens in the long run, making them work for a sustainable future. This project was **field-tested** at **IITM Campus-Cafe** and won the **Silver medal** at **Inter-IIT Tech Meet, Mumbai’18**.
 
 
 
 ## Using the code
-###Arduino (Mega)
+### Arduino (Mega)
 1. `Arduino/v_2.0.0.ino` has a **FSM** (Finite State Machine) which scans RFID, changes display in LCD/dot-matrix display, generates PWM signals for motor control to open/close the lid, etc. as detailed in the 9 steps above, after receiving a signal from the computer performing waste classification.
 2. `Modules` contains driver-codes for **peripherals** like RFID, servo, LCD display, etc.
 
-###RPi/AI-boards (SBC - Single Board Computer)
+### RPi/AI-boards (SBC - Single Board Computer)
 1. **InceptionV3** and **ResNet512** models were trained with huge parallelism (on-premise GPU cluster) on a very large dataset (over **19 million object classes**) and the final trained model is stored in `models/model/garbagsse2.model`.
 2. `models/classifier.py` is the **main script** that runs in the SBC, which invokes the saved model to perform waste classification, and then informs the same to Arduino using **GPIO ports** for further control dynamics.
 
