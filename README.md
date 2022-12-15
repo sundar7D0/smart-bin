@@ -28,7 +28,7 @@ It is hoped that this system will help educate the students of IITM about approp
 
 ## Using the code
 ### Arduino (Mega)
-1. `Arduino/v_2.0.0.ino` has a **FSM** (Finite State Machine) which scans RFID, changes display in LCD/dot-matrix display, generates PWM signals for motor control to open/close the lid, etc. as detailed in the 9 steps above, after receiving a signal from the computer performing waste classification.
+1. `Arduino/v_2.0.0.ino` has a **FSM** (Finite State Machine) which scans RFID, changes display in LCD/dot-matrix display, generates PWM signals for motor control to open/close the lid, etc. as detailed in the above 10 steps, after receiving a signal from the computer performing waste classification.
 2. `Modules` contains driver-codes for **peripherals** like RFID, servo, LCD display, etc.
 
 ### RPi/AI SBCs (Single Board Computers)
