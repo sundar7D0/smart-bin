@@ -38,4 +38,3 @@ It is hoped that this system will help educate the students of IITM about approp
 ## Additional resources
 1. [Slides](https://drive.google.com/drive/folders/1dT3ZZ_8g_MOizgmEKLXDApM6tMJDBB5u?usp=sharing)
 2. [Video](https://drive.google.com/file/d/1eWksJXGUBuACYEtR6RTmr3X5HRkNl-WT/view?usp=sharing)
-3. [Code](https://github.com/sundar7D0/smart-bin)
